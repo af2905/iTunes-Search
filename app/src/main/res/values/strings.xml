@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">iTunes Search</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="search_fragment_label">Search Fragment</string>
+    <string name="album_fragment_label">Album Fragment</string>
+    <string name="track_fragment_label">Track Fragment</string>
+
+    <string name="action_search">Search</string>
+    <string name="search_hint">enter artist name</string>
+    <string name="close">close</string>
+    <string name="main_title">What\'s your favorite artist?</string>
+    <string name="songs">songs</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SearchFragment">
+
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="com.github.af2905.itunessearch.presentation.views.fragments.SearchFragment"
+        android:label="@string/search_fragment_label"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_SearchFragment_to_AlbumFragment"
+            app:destination="@id/AlbumFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/AlbumFragment"
+        android:name="com.github.af2905.itunessearch.presentation.views.fragments.AlbumFragment"
+        android:label="@string/album_fragment_label"
+        tools:layout="@layout/fragment_album">
+        <action
+            android:id="@+id/action_AlbumFragment_to_TrackFragment"
+            app:destination="@id/TrackFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/TrackFragment"
+        android:name="com.github.af2905.itunessearch.presentation.views.fragments.TrackFragment"
+        android:label="@string/track_fragment_label"
+        tools:layout="@layout/fragment_track">
+
+    </fragment>
+
+</navigation>

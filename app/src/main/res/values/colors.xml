@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B5E8C</color>
+    <color name="colorPrimaryDark">#3B5E8C</color>
+    <color name="colorAccent">#D9763D</color>
+
+    <color name="blueDark">#2C3848</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#C2C2C2</color>
+    <color name="transparent_grey">#CCFFFFFF</color>
+
+    <color name="colorItemSelected">@color/colorPrimary</color>
+    <color name="colorItemDisabled">@color/blueDark</color>
+    <color name="textColorLight">#FFFFFF</color>
+    <color name="textColorGrey">#999999</color>
+
+    <color name="mainFeedBackground">@color/colorPrimary</color>
+</resources>
